@@ -1,0 +1,696 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "Hello",
+                "Greetings"
+            ],
+            "responses": [
+                "Hello! How can I assist you today?",
+                "Hi there! How can I help you?",
+                "Hello! What can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Goodbye",
+                "Bye",
+                "See you later",
+                "Farewell"
+            ],
+            "responses": [
+                "Goodbye! If you have more questions, feel free to ask.",
+                "See you later! Have a great day.",
+                "Farewell!"
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "Appreciate it",
+                "Thanks a lot"
+            ],
+            "responses": [
+                "You're welcome! If you need further assistance, just ask.",
+                "You're welcome! Feel free to reach out anytime.",
+                "Glad I could help!"
+            ]
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "Can you help me?",
+                "I need assistance",
+                "Help please",
+                "I'm lost"
+            ],
+            "responses": [
+                "Of course! I'm here to help. What do you need assistance with?",
+                "Sure, I'd be happy to help. What's your question?",
+                "Don't worry, I'm here to assist you. What can I do for you?"
+            ]
+        },
+        {
+            "tag": "railcards",
+            "patterns": [
+                "Tell me about railcards",
+                "What is a railcard?",
+                "How can I get a railcard?",
+                "Railcard information",
+                "how to get railcards?",
+                "What types of railcards are available?",
+                "Can students get a discount with a railcard?",
+                "Where do I apply for a railcard?",
+                "What are the benefits of having a railcard?",
+                "Are there any age restrictions for railcards?",
+                "What's the price of a railcard?",
+                "Do railcards cover all train companies?",
+                "How long is a railcard valid?",
+                "Can I use a railcard for all my train journeys?",
+                "Is there a family railcard available?",
+                "What documents do I need to apply for a railcard?",
+                "Are there any special railcards for seniors?",
+                "How do I renew my railcard?",
+                "Can I get a refund on my railcard?",
+                "Railcard options for frequent travelers?"
+            ],
+            "responses": [
+                "Railcards offer discounts on train travel in the UK. They can save you money. You can buy one at a train station or online.",
+                "A railcard is a discount card for train travel. It's a great way to save on your train fares in the UK.",
+                "To get a railcard, visit a train station or the official website. You'll need a valid ID and a photo.",
+                "Different types of railcards are available, including for students, seniors, and families, offering discounts on most rail fares.",
+                "Railcards typically last for one year and can be renewed. They offer significant savings, especially for frequent travelers.",
+                "To apply for a railcard, you need proof of eligibility, like age or student status, and you can apply online or at train stations.",
+                "Most railcards are valid across different train networks in the UK, making them a flexible option for regular travel.",
+                "Family & Friends Railcard offers great savings for groups including children, ideal for family trips."
+            ]
+        },
+        {
+            "tag": "money-saving",
+            "patterns": [
+                "How can I save money in the UK?",
+                "Money-saving tips",
+                "Ways to save money",
+                "Budget-friendly living tips in the UK",
+                "Advice for economical living",
+                "How to manage finances as a student",
+                "Cost-saving strategies while studying",
+                "Tips for cheap shopping in the UK",
+                "Affordable entertainment options",
+                "Saving on utility bills",
+                "How to cut down on daily expenses",
+                "Effective budgeting techniques",
+                "Using discounts and offers effectively",
+                "Cheap transportation options"
+            ],
+            "responses": [
+                "You can save money by using public transport, cooking your meals, and shopping for groceries wisely. Also, consider buying second-hand items.",
+                "Saving money in the UK is possible by budgeting, using student discounts, and taking advantage of free or low-cost attractions.",
+                "Consider using budgeting apps to manage your finances and track your expenses. This can help you identify areas where you can save.",
+                "For affordable entertainment, look for free events in your local area or discounts for students at cinemas and museums.",
+                "When shopping, take advantage of sales, use price comparison websites, and consider buying in bulk for items you frequently use.",
+                "To reduce utility bills, ensure you turn off lights and appliances when not in use, and consider energy-efficient options."
+        ]
+        },
+        {
+            "tag": "pre-departure",
+            "patterns": [
+                "What should I know before leaving my country?",
+                "Pre-departure tips",
+                "International travel advice"
+            ],
+            "responses": [
+                "Before leaving, ensure you have the necessary travel documents, including a valid visa. Familiarize yourself with UK customs and the local culture. Also, have travel insurance.",
+                "It's essential to research the UK's culture, weather, and local laws. Make sure your passport, visa, and travel insurance are up to date."
+            ]
+        },
+        {
+            "tag": "visa",
+            "patterns": [
+                "Tell me about UK visas",
+                "Visa information",
+                "Do I need a visa?",
+                "How do I apply for a UK visa?",
+                "What are the requirements for a UK student visa?",
+                "Can I work in the UK on a student visa?",
+                "What is the process for getting a UK visa?",
+                "How long does it take to get a visa?",
+                "Are there different types of UK visas?",
+                "Visa application process for the UK",
+                "UK visa fees",
+                "What documents are needed for a UK visa?",
+                "Can I extend my UK visa?",
+                "Visa rules for international students in the UK",
+                "Emergency visa assistance"
+            ],
+            "responses": [
+                "To study in the UK, you might need a Student Visa. Check the UK government website or consult your university for the latest visa requirements.",
+                "Whether you need a visa depends on your nationality and the duration of your study. Consult the UK embassy or consulate for precise visa requirements.",
+                "Applying for a UK visa involves filling out an application form, submitting required documents, and possibly attending an interview.",
+                "It typically takes a few weeks to process a UK visa application, but it can vary. Apply well in advance of your planned travel.",
+                "There are various types of UK visas, including tourist, student, and work visas, each with specific requirements and conditions.",
+                "For detailed information on UK visa types, application procedures, fees, and required documents, visit the official UK government immigration website."
+            ]
+        },
+        {
+            "tag": "accommodation",
+            "patterns": [
+                "Tell me about student accommodation",
+                "Housing options in the UK",
+                "Where should I stay?"
+            ],
+            "responses": [
+                "Student accommodation options include university dorms, private apartments, and shared housing. It's advisable to book in advance.",
+                "You can choose from on-campus dorms or off-campus housing. Be sure to explore your options and book early."
+            ]
+        },
+        {
+            "tag": "transportation",
+            "patterns": [
+                "How to get around in the UK?",
+                "Public transportation in the UK",
+                "Transportation options"
+            ],
+            "responses": [
+                "The UK offers a range of transportation options, including buses, trains, trams, and the London Underground. Consider getting an Oyster card or contactless payment for convenience.",
+                "Using public transport is a convenient and cost-effective way to get around the UK. Familiarize yourself with local transit systems and routes."
+            ]
+        },
+        {
+            "tag": "healthcare",
+            "patterns": [
+                "How does healthcare work in the UK?",
+                "Healthcare for international students",
+                "National Health Service (NHS)",
+                "healthcare in the UK"
+            ],
+            "responses": [
+                "International students in the UK may be eligible for NHS services. Register with a local GP (doctor) and understand how to access healthcare.",
+                "The NHS provides healthcare services in the UK. Make sure to register with a GP as soon as you arrive and learn about available healthcare services."
+            ]
+        },
+        {
+            "tag": "culture",
+            "patterns": [
+                "Tell me about British culture",
+                "Cultural aspects in the UK",
+                "Understanding British culture"
+            ],
+            "responses": [
+                "British culture is diverse and rich. It includes traditions like afternoon tea, historic landmarks, and a love for football. Be open to exploring and experiencing it.",
+                "The UK is known for its cultural diversity, including music, literature, and festivals. Engage with locals to immerse yourself in British culture."
+            ]
+        },
+        {
+            "tag": "employment",
+            "patterns": [
+                "Can international students work in the UK?",
+                "Part-time jobs for students",
+                "Student employment rules"
+            ],
+            "responses": [
+                "International students in the UK can work part-time during their studies and full-time during breaks. Ensure you have the required permissions and a National Insurance Number.",
+                "Yes, international students are generally allowed to work part-time during their studies. Make sure to check your visa conditions and obtain a National Insurance Number."
+            ]
+        },
+        {
+            "tag": "emergency",
+            "patterns": [
+                "What to do in case of an emergency?",
+                "Emergency contact in the UK",
+                "Safety tips"
+            ],
+            "responses": [
+                "In case of an emergency, dial 999 for police, fire, or medical assistance. It's important to know the local emergency services number.",
+                "Your safety is a priority. Save emergency numbers on your phone, and familiarize yourself with the nearest hospitals and police stations."
+            ]
+        },
+        {
+            "tag": "language",
+            "patterns": [
+                "Do I need to learn English?",
+                "Language requirements for studying in the UK",
+                "English language skills"
+            ],
+            "responses": [
+                "English proficiency is essential for academic success. Consider taking English language courses or assessments like IELTS or TOEFL.",
+                "Most courses in the UK are conducted in English. Ensure you have a good command of English to excel in your studies."
+            ]
+        },
+        {
+            "tag": "culture_shock",
+            "patterns": [
+                "How to cope with culture shock?",
+                "Dealing with culture shock",
+                "Adapting to a new culture"
+            ],
+            "responses": [
+                "Culture shock is common. Try to connect with other international students, explore local communities, and seek support from your university's international office.",
+                "Culture shock is a natural part of adapting to a new environment. Engage in cultural exchange, ask for help when needed, and be patient with yourself."
+            ]
+        },
+        {
+            "tag": "transport_help",
+            "patterns": [
+                "Tell me about transportation in the UK",
+                "Help with transportation",
+                "Transportation assistance"
+            ],
+            "responses": [
+                "In the UK, you can use public transport like buses, trains, trams, and the London Underground. Consider getting an Oyster card for convenience. If you want to know more about railcards, just ask!"
+            ]
+        },
+        {
+            "tag": "oyster_card",
+    "patterns": [
+        "What is an Oyster card?",
+        "How does the Oyster card work?",
+        "Oyster card information",
+        "Where can I buy an Oyster card?",
+        "How to top up an Oyster card?",
+        "Can tourists use Oyster cards?",
+        "Are there any discounts with an Oyster card?",
+        "Oyster card versus contactless payments",
+        "How to check the balance on an Oyster card?",
+        "Is the Oyster card refundable?",
+        "What's the maximum fare with an Oyster card?",
+        "Oyster card for children and students",
+        "Can I use Oyster card on all London transport?",
+        "What to do if I lose my Oyster card?",
+        "Daily and weekly caps on Oyster card fares"
+    ],
+    "responses": [
+        "An Oyster card is a smart card that you can use to pay for travel on public transport in London. It offers discounted fares compared to cash. You can easily top it up and use it on buses, trams, the Tube, the DLR, London Overground, TfL Rail, Emirates Air Line, River Bus services, and most National Rail services in London.",
+        "The Oyster card is a contactless smart card that offers discounted travel fares in London. You can use it for various modes of public transport. Simply touch in and out when you travel, and the fare is automatically deducted.",
+        "You can purchase an Oyster card at Tube station ticket machines, Oyster Ticket Stops, and London's airports. They can also be ordered online.",
+        "Tourists can benefit from using an Oyster card for convenience and cheaper fares. It's widely accepted across London's public transport network.",
+        "Oyster cards can be topped up at ticket machines, online, or at Oyster Ticket Stops. You can add pay-as-you-go credit or load travelcards.",
+        "To check the balance of your Oyster card, you can use the ticket machines, visit the TfL website, or use the TfL Oyster app."
+    ]
+        },
+        {
+            "tag": "accommodation_help",
+            "patterns": [
+                "Help with finding accommodation",
+                "Accommodation assistance",
+                "Where to find student housing",
+                "accommodation in the UK"
+            ],
+            "responses": [
+                "Looking for student accommodation in the UK? You can check websites like Rightmove, Zoopla, or the official accommodation page of your university for available options. Remember to book in advance to secure your spot.",
+                "Finding student accommodation in the UK is easy. You can explore websites like Spareroom, Accommodation for Students, or Unilodgers for various housing options. Booking early is advisable."
+            ]
+        },
+        {
+            "tag": "food_help",
+            "patterns": [
+                "Where to buy groceries",
+                "Supermarkets in the UK",
+                "Food shopping",
+                "Affordable places to buy food",
+                "Best supermarkets for students",
+                "Where to find organic food",
+                "Locations of discount grocery stores",
+                "Grocery shopping tips in the UK",
+                "Are there any 24/7 supermarkets?",
+                "Local food markets near me",
+                "Vegetarian and vegan food options",
+                "International food stores in the UK",
+                "Online grocery shopping options",
+                "How to get grocery delivery",
+                "Cheapest grocery stores in London"
+            ],
+            "responses": [
+                "You can buy groceries from popular supermarkets in the UK, such as Tesco, Sainsbury's, Asda, Morrisons, Aldi, and Lidl. These supermarkets offer a wide range of products at different price points. Don't forget to bring your own reusable bags!",
+                "When it comes to food shopping in the UK, you have options like Tesco, Sainsbury's, Asda, Morrisons, Aldi, and Lidl. Each offers a variety of products to suit your budget and preferences.",
+                "For organic food, check out Whole Foods, Planet Organic, and local farmers' markets. Many supermarkets also have organic sections.",
+                "Discount grocery stores like Aldi and Lidl are great for budget-friendly shopping. Also, look for local markets for fresh and affordable produce.",
+                "Online grocery shopping is convenient in the UK. Tesco, Sainsbury's, and Asda offer delivery services. You can also use apps like Ocado and Deliveroo.",
+                "For vegetarian and vegan options, most supermarkets have dedicated sections. Health food stores and specialty shops offer a wider range."
+            ]
+        },
+        {
+            "tag": "undergraduate_courses",
+            "patterns": [
+                "Tell me about undergraduate courses at Herts",
+                "What undergraduate programs are available at Herts?",
+                "Information on Herts undergraduate courses"
+            ],
+            "responses": [
+                "At Herts, we offer career-focused degrees in a variety of fields such as business, psychology, law, engineering, sport, and animation. Our courses are designed with employer input and offer practical work-placement opportunities."
+            ]
+        },
+        {
+            "tag": "accounting_finance_courses",
+            "patterns": [
+                "Information on accounting and finance courses at Herts",
+                "Tell me about the accounting and finance program at Herts",
+                "Accounting and finance degree details at Herts"
+            ],
+            "responses": [
+                "Our accounting and finance degrees are career-launching and developed with professional bodies. They offer strong industry links and opportunities for exemptions from professional exams, along with paid work placements."
+            ]
+        },
+        {
+            "tag": "animation_games_film_media",
+            "patterns": [
+                "Details on animation and game courses at Herts",
+                "Film and media programs at Herts",
+                "Studying animation, games, film, and media at Herts"
+            ],
+            "responses": [
+                "Our programs in animation, games, film, and media let you bring your imagination to life, with access to cutting-edge technologies and strong business links. We offer hands-on experience and have received numerous awards in these fields."
+            ]
+        },
+        {
+            "tag": "architecture_courses",
+            "patterns": [
+                "Architecture courses at Herts",
+                "Studying architecture at Herts",
+                "Information about Herts architecture program"
+            ],
+            "responses": [
+                "Our architecture courses blend practical and conceptual building design with theoretical knowledge. We offer pathways in urbanism, landscape, and building planning. Our BA Architecture is ARB prescribed for Part 1."
+            ]
+        },
+        {
+            "tag": "art_design_fashion",
+            "patterns": [
+                "Art and design programs at Herts",
+                "Fashion courses available at Herts",
+                "Details about art, design, and fashion at Herts"
+            ],
+            "responses": [
+                "Our art, design, and fashion courses offer creative freedom with state-of-the-art facilities and studio spaces. We have strong industry links and our students have won international competitions in these fields."
+            ]
+        },
+        {
+            "tag": "finding_accommodation",
+            "patterns": [
+                "How do I find accommodation in the UK?",
+                "Tips for finding housing in the UK",
+                "Best way to find a place to live in the UK",
+                "Accommodation search websites",
+                "Affordable housing in the UK for students",
+                "How to find short-term rentals",
+                "Searching for accommodation near universities"
+            ],
+            "responses": [
+                "Finding accommodation in the UK can be done through online property portals, university accommodation services, or through real estate agents. It's important to start your search early and consider factors like location, budget, and amenities.",
+                "Popular websites for finding accommodation include Rightmove, Zoopla, and SpareRoom. Check out local listings and university bulletin boards as well."
+            ]
+        },
+        {
+            "tag": "student_housing_options",
+            "patterns": [
+                "What are the housing options for students in the UK?",
+                "Different types of student accommodation in the UK",
+                "Housing choices for university students in the UK",
+                "Private vs university-managed housing",
+                "Finding roommates for shared housing",
+                "Best student housing in London",
+                "Affordable student accommodations"
+            ],
+            "responses": [
+                "Students in the UK have several housing options including university halls of residence, private student housing, shared apartments, and homestays. Each option offers different experiences and costs, so consider what suits your needs and budget.",
+                "For budget-friendly options, consider shared housing or living in university halls. Some universities offer accommodation support services to help you find the right place."
+            ]
+        },
+        {
+            "tag": "renting_process_in_uk",
+            "patterns": [
+                "How does renting work in the UK?",
+                "What is the process for renting a house in the UK?",
+                "Steps for renting an apartment in the UK",
+                "Understanding rental agreements",
+                "Deposits and fees for renting",
+                "How to find reliable landlords",
+                "Typical lease terms in the UK"
+            ],
+            "responses": [
+                "Renting in the UK typically involves searching for properties, arranging viewings, paying a deposit, and signing a tenancy agreement. Ensure you understand the terms of your lease, including rent, utility bills, and maintenance responsibilities.",
+                "When renting, expect to provide references, undergo a credit check, and pay a deposit (usually one month's rent). Read your rental agreement carefully before signing."
+            ]
+        },
+        {
+            "tag": "budgeting_for_accommodation",
+            "patterns": [
+                "How much should I budget for housing in the UK?",
+                "Cost of living in student accommodation in the UK",
+                "Estimating rent and living expenses in the UK",
+                "Average rent costs in major UK cities",
+                "Budgeting for utilities and council tax",
+                "Managing accommodation costs as a student"
+            ],
+            "responses": [
+                "Budgeting for accommodation in the UK varies based on location and type of housing. Consider rent, utility bills, council tax, and other living expenses. Major cities like London are typically more expensive than smaller towns or cities.",
+                "On average, expect to budget around £500-£800 per month for rent in cities outside of London. In London, rent can be higher, ranging from £800 to over £1,200 per month."
+            ]
+        },
+        {
+            "tag": "legal_rights_as_a_tenant",
+            "patterns": [
+                "What are my rights as a tenant in the UK?",
+                "Understanding tenant rights in the UK",
+                "Legal protections for renters in the UK",
+                "Dealing with landlord disputes",
+                "Eviction laws in the UK",
+                "What to do if my deposit isn't returned?"
+            ],
+            "responses": [
+                "As a tenant in the UK, you have rights including living in a property that\u2019s safe and in a good state of repair, protection from unfair eviction and unfair rent, and having your deposit returned when the tenancy ends, minus any agreed deductions.",
+                "In case of disputes with landlords, seek advice from local citizen advice bureaus or legal counsel. Ensure you have a written contract and keep records of all communications."
+            ]
+        },
+        {
+            "tag": "visa_application_process",
+            "patterns": [
+                "How do I apply for a UK visa?",
+                "Steps in the UK visa application process",
+                "Guide to applying for a visa to the UK",
+                "Visa requirements for studying in the UK",
+                "Documents needed for UK visa application",
+                "Timeline for visa processing"
+            ],
+            "responses": [
+                "To apply for a UK visa, you need to identify the right visa type, complete an online application, pay the visa fee, and attend an appointment at a visa application center for biometrics and document submission. It's crucial to prepare the required documents and follow the latest guidelines from the UK government.",
+                "The visa application process can vary in duration, but it's advisable to apply at least 3 months before your intended travel date. Prepare your documents, including passport, proof of funds, and any invitation or acceptance letters."
+            ]
+        },
+        {
+            "tag": "student_visa_requirements",
+            "patterns": [
+                "What are the requirements for a UK student visa?",
+                "Eligibility criteria for UK student visa",
+                "Documents needed for a UK student visa application"
+            ],
+            "responses": [
+                "For a UK student visa, you must have an offer from a licensed student sponsor, prove your knowledge of English, and have enough money to support yourself and pay for your course. The specific documents required may include a current passport, proof of financial support, and a confirmation of acceptance for studies (CAS)."
+            ]
+        },
+        {
+            "tag": "visa_extension_and_renewal",
+            "patterns": [
+                "How can I extend my UK visa?",
+                "Process for renewing a visa in the UK",
+                "Extending or renewing my stay in the UK"
+            ],
+            "responses": [
+                "To extend or renew your UK visa, you must apply online before your current visa expires. The process involves filling out an application form, paying the application fee, and potentially attending an appointment to provide your biometrics. Make sure to check the specific requirements for your visa category."
+            ]
+        },
+        {
+            "tag": "working_on_a_student_visa",
+            "patterns": [
+                "Can I work in the UK on a student visa?",
+                "Employment rules for student visa holders in the UK",
+                "Working while studying in the UK on a student visa"
+            ],
+            "responses": [
+                "Holders of a UK student visa can work part-time during term time and full-time during vacations, but there are restrictions on the type of work and the number of hours you can work. It's important to check the conditions of your visa to understand your work rights."
+            ]
+        },
+        {
+            "tag": "bringing_family_members",
+            "patterns": [
+                "Can I bring my family to the UK on a student visa?",
+                "Bringing dependents on a UK student visa",
+                "Family visa rules for UK student visa holders"
+            ],
+            "responses": [
+                "Students on a UK student visa can bring dependents, such as a spouse or children, under certain conditions. You must be studying a postgraduate course at a higher education institution or a government-sponsored student for a course longer than six months."
+            ]
+        },
+        {
+            "tag": "career_guidance_services",
+            "patterns": [
+                "Where can I get career advice in the UK?",
+                "Career counseling services for students in the UK",
+                "Accessing career guidance in the UK"
+            ],
+            "responses": [
+                "Career guidance in the UK can be accessed through university career centers, professional career counseling services, and online resources. These services offer advice on career planning, job searching, resume writing, and interview preparation."
+            ]
+        },
+        {
+            "tag": "job_search_strategies",
+            "patterns": [
+                "Tips for finding a job in the UK",
+                "Strategies for successful job hunting in the UK",
+                "How to search for employment in the UK"
+            ],
+            "responses": [
+                "Effective job search strategies in the UK include networking, using online job portals, attending career fairs, and applying for internships. Tailoring your CV and cover letter for each application and preparing well for interviews are also key steps."
+            ]
+        },
+        {
+            "tag": "work_experience_opportunities",
+            "patterns": [
+                "How to gain work experience in the UK",
+                "Internship opportunities in the UK",
+                "Getting work experience as a student in the UK"
+            ],
+            "responses": [
+                "To gain work experience in the UK, consider internships, part-time jobs, volunteer work, and placements. Many universities and colleges have partnerships with businesses and organizations where students can gain practical experience in their field of study."
+            ]
+        },
+        {
+            "tag": "resume_and_cover_letter_tips",
+            "patterns": [
+                "How to write a CV for UK jobs",
+                "Tips for crafting a cover letter in the UK",
+                "Resume writing advice for employment in the UK"
+            ],
+            "responses": [
+                "In the UK, a CV should be concise, well-structured, and tailored to the job you are applying for. Include your education, work experience, skills, and references. A cover letter should complement your CV, highlighting your suitability for the role and your motivation."
+            ]
+        },
+        {
+            "tag": "interview_preparation_advice",
+            "patterns": [
+                "How to prepare for job interviews in the UK",
+                "Tips for succeeding in UK job interviews",
+                "Interview techniques for UK employment"
+            ],
+            "responses": [
+                "To prepare for a job interview in the UK, research the company, rehearse answers to common interview questions, and prepare your own questions for the interviewer. Dress appropriately, arrive on time, and be confident in presenting your skills and experience."
+            ]
+        },
+        {
+            "tag": "public_transport_options",
+            "patterns": [
+                "What are the public transport options in the UK?",
+                "How to use public transportation in the UK",
+                "Guide to UK public transport"
+            ],
+            "responses": [
+                "The UK offers a variety of public transport options, including buses, trains, and underground services in major cities. You can use contactless payment or travel cards like the Oyster card in London. Timetables and routes are available online and at stations."
+            ]
+        },
+        {
+            "tag": "getting_a_drivers_license",
+            "patterns": [
+                "How to get a driver's license in the UK",
+                "Process of obtaining a UK driving license",
+                "Requirements for a UK driver's license"
+            ],
+            "responses": [
+                "To get a driver's license in the UK, you need to pass a theory test and a practical driving test. You must first obtain a provisional license, which allows you to practice driving. Remember to familiarize yourself with the UK driving rules and regulations."
+            ]
+        },
+        {
+            "tag": "travel_discounts_for_students",
+            "patterns": [
+                "Are there travel discounts for students in the UK?",
+                "Student travel concessions in the UK",
+                "How can students save on travel in the UK?"
+            ],
+            "responses": [
+                "Students in the UK can benefit from various travel discounts. Railcards offer significant savings on train fares, and many bus and coach services provide reduced fares for students. Always carry your student ID to access these discounts."
+            ]
+        },
+        {
+            "tag": "navigating_uk_airports",
+            "patterns": [
+                "Tips for navigating airports in the UK",
+                "Guide to UK airports for international students",
+                "How to manage airport travel in the UK"
+            ],
+            "responses": [
+                "Navigating UK airports involves understanding check-in procedures, security checks, and gate information. Most airports have clear signage and information desks to assist travelers. It's advisable to arrive early for your flight to allow enough time for all processes."
+            ]
+        },
+        {
+            "tag": "cycling_in_the_uk",
+            "patterns": [
+                "Can I cycle in the UK?",
+                "Rules for cycling in the UK",
+                "Is cycling a good option for transport in the UK?"
+            ],
+            "responses": [
+                "Cycling is a popular and eco-friendly mode of transport in the UK. There are cycling lanes in many cities, and you can often rent bicycles. Make sure to follow the traffic rules, wear a helmet, and use bike lights after dark for safety."
+            ]
+        },
+        {
+            "tag": "undergraduate_admission_requirements",
+            "patterns": [
+                "What are the requirements for undergraduate admission in UK universities?",
+                "Undergraduate application criteria for UK universities",
+                "Eligibility for undergraduate programs in the UK"
+            ],
+            "responses": [
+                "Undergraduate admission requirements in UK universities typically include A-levels or equivalent qualifications, English language proficiency (like IELTS), and specific grades or points. Some courses may require additional tests or interviews."
+            ]
+        },
+        {
+            "tag": "postgraduate_admission_process",
+            "patterns": [
+                "How to apply for a postgraduate course in the UK?",
+                "Postgraduate admission procedure in UK universities",
+                "Steps for applying to a master's program in the UK"
+            ],
+            "responses": [
+                "To apply for a postgraduate course in the UK, you usually need to complete an online application through the university's website, submit academic transcripts, a personal statement, references, and proof of English proficiency. Some programs may require work experience or a portfolio."
+            ]
+        },
+        {
+            "tag": "international_student_admissions",
+            "patterns": [
+                "Admission process for international students in the UK",
+                "How can international students apply to UK universities?",
+                "Guidelines for overseas applicants to UK universities"
+            ],
+            "responses": [
+                "International students applying to UK universities need to meet academic and English language requirements, submit an application through UCAS (for undergraduate) or directly to the university (for postgraduate), and obtain a student visa upon acceptance."
+            ]
+        },
+        {
+            "tag": "scholarships_for_university_admission",
+            "patterns": [
+                "Are there scholarships for university admissions in the UK?",
+                "Scholarship opportunities for UK university applicants",
+                "Financial aid for students applying to UK universities"
+            ],
+            "responses": [
+                "Many UK universities offer scholarships for both domestic and international students based on academic merit, financial need, or specific talents. Research each university's website for scholarship options and application procedures."
+            ]
+        },
+        {
+            "tag": "university_application_deadlines",
+            "patterns": [
+                "What are the application deadlines for UK universities?",
+                "When to apply for university in the UK?",
+                "Key dates for UK university applications"
+            ],
+            "responses": [
+                "Application deadlines for UK universities vary. For undergraduate courses through UCAS, the main deadline is usually in January. Postgraduate course deadlines vary by program and university. Always check the specific deadlines for the courses you are interested in."
+            ]
+        }
+    ]
+}
